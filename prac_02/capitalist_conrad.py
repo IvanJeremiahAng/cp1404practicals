@@ -9,10 +9,10 @@ The price should be displayed to the nearest cent (e.g. $33.59, not $33.59182329
 """
 import random
 
-MAX_INCREASE = 0.10  # 17.5%
-MAX_DECREASE = 0.05  # 5%
-MIN_PRICE = 0.01
-MAX_PRICE = 1000.0
+MAX_INCREASE = 0.25  # 25%
+MAX_DECREASE = 0.15  # 15%
+MIN_PRICE = 0.20  # increased to 20 cents
+MAX_PRICE = 1000000.0  # increased to a cap of 1 million
 INITIAL_PRICE = 10.0
 OUTPUT_FILE = "capitalistconradoutput.txt"
 price = INITIAL_PRICE
